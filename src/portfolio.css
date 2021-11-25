@@ -2,7 +2,7 @@
   --h1-font-color: #47664f;
   --h2-font-color: #eea79d;
   --links-color: #eea79d;
-  --text-color: #000000;
+  --text-color: #4a4a4b;
   --background-color: #ffffff;
   --primary-font: "Rubik", sans-serif;
   --secondary-font: "Rubik", sans-serif;
@@ -52,6 +52,28 @@ h3 {
   color: white;
 }
 
+.navbar-general {
+  font-size: 24px;
+}
+
+.links {
+  color: var(--text-color) !important;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #8b8b8b !important;
+  transition: ease-in-out;
+}
+
+.links:active {
+  text-decoration: underline;
+}
+
+.navbar-icon {
+  max-width: 30px;
+}
+
 .portrait {
   border-radius: 50%;
   max-width: 40%;
@@ -84,6 +106,16 @@ footer {
   margin-left: 50px;
   position: relative;
   left: 18px;
+}
+
+.footer-link {
+  color: var(--links-color);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--links-color);
+  text-decoration: none;
 }
 
 @media (max-width: 576px) {
