@@ -15,19 +15,20 @@ body {
 }
 h1 {
   color: var(--h1-font-color);
-  font-size: 43px;
+  font-size: 60px;
   font-weight: 300;
 }
 
 h2 {
   color: var(--h2-font-color);
   font-weight: 300;
+  font-size: 42px;
 }
 
 h3 {
   color: var(--text-color);
   font-weight: 300;
-  font-size: 16px;
+  font-size: 26px;
 }
 
 h4 {
@@ -44,10 +45,11 @@ h4 {
 .link {
   display: block;
   padding: 10px 15px;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  max-width: 120px;
+  max-width: 140px;
   background-color: var(--links-color);
+  font-size: 24px;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -90,6 +92,9 @@ h4 {
   right: 39px;
 }
 
+.hello-part {
+  text-align: left;
+}
 footer {
   height: 100px;
   width: 100%;
