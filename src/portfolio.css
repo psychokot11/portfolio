@@ -130,6 +130,7 @@ footer {
 
 .technologies-and-certificates {
   margin-top: 50px;
+  margin-bottom: 35px;
 }
 
 .technologies-icons {
@@ -150,6 +151,12 @@ footer {
   display: flex;
   position: relative;
   margin: 10px 0;
+}
+
+.certificate {
+  max-width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 576px) {
