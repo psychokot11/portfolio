@@ -30,6 +30,11 @@ h3 {
   font-size: 16px;
 }
 
+h4 {
+  color: var(--h1-font-color);
+  padding-top: 25px;
+}
+
 .body {
   background-color: var(--background-color);
   max-width: 90%;
@@ -40,6 +45,7 @@ h3 {
   display: block;
   padding: 10px 15px;
   margin-top: 25px;
+  margin-bottom: 50px;
   max-width: 120px;
   background-color: var(--links-color);
   color: white;
@@ -160,6 +166,18 @@ footer {
   text-align: center;
 }
 
+.resume-text {
+  padding-right: px;
+}
+
+.email-span {
+  padding-left: 10px;
+}
+
+.email-paragraph {
+  padding-top: 10px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
@@ -212,6 +230,9 @@ footer {
     padding: 0;
     position: static;
     margin: 0 auto;
+  }
+  .email-paragraph {
+    text-align: center;
   }
 }
 
