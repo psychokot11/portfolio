@@ -11,6 +11,7 @@
 body {
   background-color: var(--background-color);
   font-family: var(--primary-font);
+  max-width: 100%;
 }
 h1 {
   color: var(--h1-font-color);
@@ -86,7 +87,7 @@ h3 {
 footer {
   height: 100px;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -135,4 +136,16 @@ footer {
   .portrait {
     display: none;
   }
+  .about-text {
+    font-size: 12px;
+  }
+}
+
+.about-text {
+  padding-right: 70px;
+  font-size: 16px;
+}
+
+.technologies-and-certificates {
+  margin-top: 50px;
 }
