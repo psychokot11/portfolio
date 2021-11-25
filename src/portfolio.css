@@ -102,7 +102,6 @@ h4 {
 .portrait {
   border-radius: 50%;
   max-width: 40%;
-  display: flex;
   position: relative;
   right: 39px;
 }
