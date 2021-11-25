@@ -197,7 +197,7 @@ footer {
 }
 
 .email-paragraph {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .navbar-general {
@@ -226,10 +226,6 @@ footer {
   }
 
   .link {
-    display: block;
-    margin: 40px auto;
-  }
-  .link-resume {
     display: block;
     margin: 40px auto;
   }
