@@ -123,24 +123,6 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  h3 {
-    font-size: 12px;
-  }
-  .portrait {
-    display: none;
-  }
-  .about-text {
-    font-size: 12px;
-  }
-}
-
 .about-text {
   padding-right: 70px;
   font-size: 16px;
@@ -148,4 +130,85 @@ footer {
 
 .technologies-and-certificates {
   margin-top: 50px;
+}
+
+.technologies-icons {
+  font-size: 56px;
+  text-align: center;
+  color: var(--h1-font-color);
+}
+
+.technologies-text {
+  font-size: 12px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.small-portrait {
+  border-radius: 50%;
+  max-width: 40%;
+  display: flex;
+  position: relative;
+  margin: 10px 0;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .portrait {
+    display: none;
+  }
+
+  .link {
+    display: block;
+    margin: 40px auto;
+  }
+  .about-text {
+    font-size: 12px;
+    text-align: center;
+  }
+  .technologies-icons {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  .small-portrait {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .about-text {
+    padding: 0;
+  }
+  .icon-div {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .footer-text {
+    display: block;
+    text-align: center;
+    padding: 0;
+    position: static;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .small-portrait {
+    display: none;
+  }
 }
