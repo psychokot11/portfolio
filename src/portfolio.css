@@ -52,6 +52,11 @@ h3 {
   color: white;
 }
 
+.portrait {
+  border-radius: 50%;
+  max-width: 40%;
+}
+
 footer {
   height: 100px;
   width: 100%;
