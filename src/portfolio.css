@@ -52,8 +52,40 @@ h3 {
   color: white;
 }
 
+footer {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-elements {
+  display: flex;
+}
+
+.icon-div {
+  margin-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .social-media-icon {
   color: var(--h1-font-color);
   font-size: 30px;
-  padding: 5px 10px;
+  padding: 10px 10px;
+}
+
+.footer-text {
+  margin-left: 50px;
+  position: relative;
+  left: 18px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 12px;
+  }
 }
