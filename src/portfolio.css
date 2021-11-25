@@ -33,6 +33,7 @@ h3 {
 
 h4 {
   color: var(--h1-font-color);
+  font-size: 30px;
   padding-top: 25px;
 }
 
@@ -57,7 +58,26 @@ h4 {
   box-shadow: -3px 8px 25px 4px rgba(0, 0, 0, 0.1);
 }
 
+.link-resume {
+  display: block;
+  padding: 10px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 140px;
+  background-color: var(--h1-font-color);
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: -3px 8px 25px 4px rgba(0, 0, 0, 0.1);
+}
+
 .link:hover {
+  color: white;
+}
+
+.link-resume:hover {
   color: white;
 }
 
@@ -168,6 +188,10 @@ footer {
   padding-right: px;
 }
 
+.resume-heading {
+  padding-bottom: 15px;
+}
+
 .email-span {
   padding-left: 10px;
 }
@@ -190,7 +214,7 @@ footer {
     text-align: center;
   }
   h2 {
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
   }
   h3 {
@@ -202,6 +226,10 @@ footer {
   }
 
   .link {
+    display: block;
+    margin: 40px auto;
+  }
+  .link-resume {
     display: block;
     margin: 40px auto;
   }
