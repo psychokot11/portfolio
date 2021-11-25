@@ -157,6 +157,7 @@ footer {
   max-width: 90%;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 @media (max-width: 576px) {
