@@ -11,7 +11,6 @@
 body {
   background-color: var(--background-color);
   font-family: var(--primary-font);
-  max-width: 100%;
 }
 h1 {
   color: var(--h1-font-color);
@@ -42,8 +41,6 @@ h4 {
 
 .body {
   background-color: var(--background-color);
-  max-width: 90%;
-  margin: 100px auto;
 }
 
 body-html {
@@ -139,7 +136,11 @@ footer {
 .social-media-icon {
   color: var(--h1-font-color);
   font-size: 30px;
-  padding: 10px 10px;
+  padding: 10px;
+}
+
+.col-icon {
+  padding: 5px;
 }
 
 .footer-text {
@@ -157,8 +158,9 @@ footer {
 }
 
 .about-text {
-  padding-right: 70px;
   font-size: 16px;
+  text-align: center;
+  padding: 10px 150px;
 }
 
 .technologies-and-certificates {
@@ -166,7 +168,7 @@ footer {
   margin-bottom: 35px;
 }
 
-.technologies-icons {
+.technologies {
   font-size: 56px;
   text-align: center;
   color: var(--h1-font-color);
@@ -186,21 +188,12 @@ footer {
 
 .certificate {
   max-width: 90%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 50px;
   text-align: center;
-}
-
-.resume-text {
-  padding-right: px;
 }
 
 .resume-heading {
   padding-bottom: 15px;
-}
-
-.email-span {
-  padding-left: 10px;
 }
 
 .email-paragraph {
@@ -241,24 +234,28 @@ footer {
   .about-text {
     font-size: 12px;
     text-align: center;
+    padding: 5px;
   }
-  .technologies-icons {
-    font-size: 16px;
-    display: flex;
-    flex-direction: row;
+  .technologies {
+    font-size: 60px;
     text-align: center;
+  }
+
+  .icon-mobile {
+    font-size: 125px;
+    margin-top: 25px;
+  }
+  .technologies-and-certificates {
+    margin-bottom: 0;
   }
   .small-portrait {
     display: block;
     padding: 10px;
     margin: 0 auto;
   }
-  .about-text {
-    padding: 0;
-  }
+
   .icon-div {
     display: block;
-    padding: 0;
     margin: 0 auto;
     margin-bottom: 0;
     text-align: center;
@@ -266,7 +263,6 @@ footer {
   .footer-text {
     display: block;
     text-align: center;
-    padding: 0;
     position: static;
     margin: 0 auto;
   }
