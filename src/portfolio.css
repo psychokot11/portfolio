@@ -210,6 +210,10 @@ footer {
   width: 100% !important;
 }
 
+.card {
+  margin: 0 auto;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
