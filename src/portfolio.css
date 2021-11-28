@@ -98,8 +98,8 @@ body-html {
   transition: ease-in-out;
 }
 
-.links:active {
-  text-decoration: underline;
+.active {
+  color: var(--links-color) !important;
 }
 
 .navbar-icon {
