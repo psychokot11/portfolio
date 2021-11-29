@@ -189,6 +189,7 @@ footer {
 .certificate {
   max-width: 90%;
   margin-top: 25px;
+  margin-bottom: 48px;
   text-align: center;
 }
 
@@ -211,7 +212,7 @@ footer {
 }
 
 .card {
-  margin: 0 auto;
+  margin: 0 auto 18px;
 }
 
 .card-text {
@@ -255,6 +256,13 @@ footer {
   }
   .technologies-and-certificates {
     margin-bottom: 0;
+  }
+  .certificate {
+    margin-top: 9px;
+    margin-bottom: 16px;
+  }
+  .card {
+    margin: 0 5px 18px;
   }
   .small-portrait {
     display: block;
