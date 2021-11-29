@@ -47,6 +47,10 @@ body-html {
   text-align: center;
 }
 
+.navbar {
+  z-index: 1;
+}
+
 .h2-index {
   margin-top: 100px;
 }
