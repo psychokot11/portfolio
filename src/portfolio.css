@@ -219,6 +219,10 @@ footer {
   margin: 0 auto 18px;
 }
 
+.card-body {
+  height: 160px;
+}
+
 .card-text {
   font-size: 12px;
 }
