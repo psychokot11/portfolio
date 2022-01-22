@@ -218,6 +218,10 @@ footer {
   width: 100% !important;
 }
 
+.card-main {
+  margin: 10px;
+}
+
 .card {
   margin: 0 auto 18px;
 }
