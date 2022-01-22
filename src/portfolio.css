@@ -112,7 +112,7 @@ body-html {
 
 .portrait {
   border-radius: 50%;
-  max-width: 25%;
+  max-width: 22%;
   margin: 25px auto;
   display: block;
 }
@@ -162,9 +162,12 @@ footer {
 }
 
 .about-text {
+  display: block;
+  margin: 0 auto;
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
   padding: 10px 150px;
+  max-width: 90%;
 }
 
 .technologies-and-certificates {
@@ -250,7 +253,6 @@ footer {
   }
   .about-text {
     font-size: 12px;
-    text-align: center;
     padding: 5px;
   }
   .technologies {
