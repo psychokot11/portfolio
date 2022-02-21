@@ -308,6 +308,7 @@ footer {
 }
 
 .inner {
+  text-align: center;
   background: var(--h2-font-color);
   padding: 1em;
   border-radius: 10px;
@@ -335,6 +336,9 @@ footer {
   font-weight: bold;
   transition: color 0.5s;
   position: relative;
+  top: -8px;
+  right: -1px;
+  font-size: 1rem;
 }
 
 .inner:hover span {
@@ -349,5 +353,5 @@ footer {
 
 .inner p {
   color: var(--text-color);
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
