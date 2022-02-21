@@ -313,7 +313,7 @@ footer {
   padding: 1em;
   border-radius: 10px;
   width: 250px;
-  position: absolute;
+  position: relative;
   top: 29%;
   left: 26%;
   -moz-transform: translateX(-50%) translateY(-50%);
