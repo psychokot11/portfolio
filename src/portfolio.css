@@ -306,3 +306,48 @@ footer {
     display: none;
   }
 }
+
+.inner {
+  background: var(--h2-font-color);
+  padding: 1em;
+  border-radius: 10px;
+  width: 250px;
+  position: absolute;
+  top: 29%;
+  left: 26%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+  clip-path: circle(10% at 90% 20%);
+  transition: clip-path 0.5s ease-in-out;
+}
+
+.inner:hover {
+  clip-path: circle(75%);
+  cursor: pointer;
+  background-color: var(--background-color);
+}
+
+.inner span {
+  float: right;
+  color: var(--h1-font-color);
+  font-weight: bold;
+  transition: color 0.5s;
+  position: relative;
+}
+
+.inner:hover span {
+  color: rgba(255, 255, 255, 0);
+}
+
+.inner h4 {
+  color: var(--text-color);
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.inner p {
+  color: var(--text-color);
+  font-size: 0.8rem;
+}
