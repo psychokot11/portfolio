@@ -227,11 +227,15 @@ footer {
 }
 
 .card-body {
-  height: 160px;
+  height: 180px;
 }
 
 .card-text {
   font-size: 12px;
+}
+
+.card-img-top {
+  height: 200px;
 }
 
 .inner {
